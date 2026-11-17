@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore India - Travel Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav class="navbar">
+    <h2>Explore India</h2>
+    <button id="menuBtn" aria-label="Toggle navigation">☰</button>
+    <ul id="navMenu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#destinations">Destinations</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h1>Discover Beautiful Places</h1>
+  <p>Explore new destinations, experience different cultures and create unforgettable memories.</p>
+  <a href="#destinations" class="btn">Explore Destinations</a>
+</section>
+
+<section class="section" id="destinations">
+  <h2>Popular Travel Destinations</h2>
+  <p class="intro">Discover three amazing places to visit in India.</p>
+  <div class="destination-container">
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=900&q=80" alt="Beach in Goa">
+      <div class="card-content">
+        <h3>Goa</h3>
+        <p>Goa is famous for its beautiful beaches, water sports, Portuguese architecture and lively nightlife.</p>
+        <p><strong>Best time:</strong> November to February</p>
+        <p><strong>Famous for:</strong> Beaches, seafood and forts</p>
+        <button class="info-btn" data-info="Visit Baga Beach, Fort Aguada and Old Goa. Try water sports and explore local markets.">Travel Information</button>
+        <p class="extra-info"></p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=900&q=80" alt="Mountains in Manali">
+      <div class="card-content">
+        <h3>Manali</h3>
+        <p>Manali is a beautiful hill station surrounded by mountains, green valleys, rivers and snow-covered landscapes.</p>
+        <p><strong>Best time:</strong> October to June</p>
+        <p><strong>Famous for:</strong> Snowfall, trekking and adventure</p>
+        <button class="info-btn" data-info="Visit Solang Valley, Hadimba Temple and Rohtang Pass (subject to seasonal access). Enjoy trekking and mountain views.">Travel Information</button>
+        <p class="extra-info"></p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?auto=format&fit=crop&w=900&q=80" alt="Hawa Mahal in Jaipur">
+      <div class="card-content">
+        <h3>Jaipur</h3>
+        <p>Jaipur, the Pink City, is known for royal palaces, historic forts, colourful markets and Rajasthani culture.</p>
+        <p><strong>Best time:</strong> October to March</p>
+        <p><strong>Famous for:</strong> Forts, palaces and culture</p>
+        <button class="info-btn" data-info="Explore Hawa Mahal, Amber Fort and City Palace. Shop for traditional handicrafts and enjoy Rajasthani food.">Travel Information</button>
+        <p class="extra-info"></p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="section about" id="about">
+  <h2>About Our Travel Blog</h2>
+  <p>Explore India is a travel blog created to share information about beautiful destinations, famous attractions and useful travel tips. Our goal is to inspire people to travel and discover new places.</p>
+</section>
+
+<section class="section contact" id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: exploreindia@example.com</p>
+  <p>Plan your next adventure with us!</p>
+</section>
+
+<footer>
+  <p>© <span id="year"></span> Explore India Travel Blog. All Rights Reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
